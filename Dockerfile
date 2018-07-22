@@ -24,4 +24,4 @@ RUN echo 'eval "$(pyenv virtualenv-init -)"' >>~/.bashrc
 
 RUN echo 'source ~/.nvm/nvm.sh' >> ~/.bashrc
 
-RUN apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp
+RUN apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
